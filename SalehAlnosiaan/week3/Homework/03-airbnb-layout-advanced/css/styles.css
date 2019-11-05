@@ -1,0 +1,211 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  background:rgb(240, 242, 231);
+
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  
+
+}
+ul{
+  list-style: none;
+  display: flex;
+}
+li{
+margin: 15px;
+}
+.header{
+text-align: center;
+
+}
+.melbourne-img{
+  background-size:contain;
+  width: 100%;
+  height: auto;
+  filter:brightness(50%);
+
+  
+}
+.melbourne-text{
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  right: 50%;
+  font-size: 50px;
+  color: white;
+}
+.melbourne-para{
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  font-size: 50px;
+  color: white;
+}
+.btn1{
+  position: absolute;
+  border: 1px;
+  background-color: rgb(255, 90, 95); 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  top: 90%;
+  left: 42%;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  margin-top:10%;
+  margin-left: 10%;
+  grid-gap: 30px;
+  
+}
+.locals-love1{
+  background:rgb(240, 242, 231);
+  padding: 20px;
+  margin-left:1px;
+  font-size: 20px;
+}
+.love-text{
+margin:10px;
+background:white;
+font-size: 20px;
+padding:15px;
+margin:12px;
+}
+.locals-hate1{
+  background:rgb(240, 242, 231);
+  margin:1px;
+  padding: 20px;
+  font-size: 20px;
+}
+.hate-text{
+  margin:10px;
+background:white;
+font-size: 20px;
+padding:15px;
+margin:0px;
+margin:12px;
+}
+.bottom-images{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+  }
+  .featured{
+    font-size:45px;
+    margin-top:14px
+  }
+  .featured-text{
+    font-size:25px;
+    margin:12px
+  }
+.grid-images{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;  
+  grid-gap: 25px;
+  position: relative;
+}
+.fitzroy{
+  width:100%;
+  position: relative;
+  filter:brightness(50%);
+
+}
+.fitzroy-head{
+  font-size: 25px;
+  color:white;
+  position:absolute;
+  top:15%;
+  text-align: center;
+  margin-left: 5%;
+
+
+
+   
+}
+.fitzroy-para{
+  font-size: 25px;
+  margin:19px;
+  background:rgb(240, 242, 231);
+}
+.st-kilda{
+  width:100%;
+  filter:brightness(50%);
+
+}
+.st-kilda-head{
+  font-size: 25px;
+  color:white;
+  position:absolute;
+  top:15%;
+  text-align: center;
+  margin-left: 3%;
+
+}
+.st-kilda-text{
+  font-size:25px;
+  text-align: center;
+  background:rgb(240, 242, 231);
+  margin:19px
+
+  
+}
+.cbd{
+  width:100%;
+  filter:brightness(50%);
+
+}
+.cbd-head{
+  font-size: 25px;
+  color:white;
+  position:absolute;
+  top:15%;
+  text-align: center;
+  margin-left: 4%;
+
+  
+}
+.cbd-text{
+font-size: 25px;
+text-align: center;
+margin:19px
+
+
+}
+.btn2{
+  border: 1px;
+  background-color: rgb(255, 90, 95); 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 25px;
+  margin-left: auto;
+  float: left;
+ 
+}
+  .footer{
+  width:100%;
+  background-color: black;
+  text-align:center;
+  padding: 30px;
+  margin:90px;
+  color:white;
+
+}
